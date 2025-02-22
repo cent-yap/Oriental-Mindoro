@@ -248,15 +248,37 @@ a, i, input, img, h1, button, figure{
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding: 0 20px;
     height: 750px;
     width: 100%;
 }
 
-.right .head{
+.content .control-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 750px;
+    width: 100%;
+}
+
+.content .control-2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 750px;
+    width: 100%;
+}
+
+.control-1 .head{
    display: flex;
    position: relative;
    align-items: center;
@@ -274,7 +296,7 @@ a, i, input, img, h1, button, figure{
     letter-spacing: 3px;
 }
 
-.right .sub{
+ .sub{
     display: flex;
     position: relative;
     align-items: center;
