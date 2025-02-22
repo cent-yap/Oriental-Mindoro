@@ -24,7 +24,7 @@ a, i, input, img, h1, button, figure{
   display: grid;
   position: relative;
   place-items: center;
-  padding: 50px;
+  padding: 50px 20px;
   background-image: url(https://campsites.ph/uploads/provinces/location-oriental-mindoro-b78c0854ed4f4560a89fa0c161323f64.jpg);
   background-position: center;
   background-size: cover;
@@ -49,7 +49,6 @@ a, i, input, img, h1, button, figure{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 0 20px;
     height: 800px;
     width: 1150px;
 }
